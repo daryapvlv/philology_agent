@@ -1,0 +1,10 @@
+pydantic
+tiktoken>=0.12,<1
+openai>=2,<4
+httpx>=0.28,<1
+langgraph>=1.2,<2
+langchain-core>=1.4.7,<2
+neo4j>=5.26,<7
+ebooklib>=0.20,<1
+
+reflex==0.9.10.post2

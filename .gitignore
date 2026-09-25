@@ -1,0 +1,23 @@
+*.py[cod]
+assets/external/
+.venv/
+.envrc
+__pycache__/
+.web/
+.states/
+.reflex/
+.cache/
+.DS_Store
+.ipynb_checkpoints/
+
+# Данные книги: канонические записи хранятся в Neo4j, история — в SQLite;
+# сами исходники книг и БД не должны попадать в git.
+*.db
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+artifacts/
+
+.env
+.env.*
+!.env.example
